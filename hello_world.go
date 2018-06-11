@@ -23,6 +23,7 @@ func main() {
 	runChapter(chapter.Branching)
 	runChapter(chapter.Loops)
 	runChapter(chapter.Maps)
+	runChapter(chapter.Slices)
 }
 
 type chapterFunc func()
