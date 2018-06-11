@@ -25,6 +25,7 @@ func main() {
 	runChapter(chapter.Maps)
 	runChapter(chapter.Slices)
 	runChapter(chapter.MethodsAndInterfaces)
+	runChapter(chapter.Concurrency)
 }
 
 type chapterFunc func()
